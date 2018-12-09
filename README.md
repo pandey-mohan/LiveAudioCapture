@@ -1,6 +1,6 @@
 # Swift Radio With Live Audio Recording
 
-Swift Radio is an open source radio station app with robust and professional features. This is a fully realized Radio App built entirely in Swift. **Master is now the Xcode 9 / Swift 4 branch**.
+Swift Radio is an open source radio station app with robust and professional features. This is a fully realized Radio App built entirely in Swift.
 
 There are over 80 different apps accepted to the app store using this code!
 
