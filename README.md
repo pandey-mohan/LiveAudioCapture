@@ -15,6 +15,7 @@ Give it a quick watch.
 
 ## Features
 
+- Download any part of live audio stream you like onto your local file system.
 - Ability to update Stations from server or locally. (Update stations anytime without resubmitting to app store!)
 - Displays Artist, Track & Album Art on Lock Screen
 - Custom views optimized for 5, 6 and 6+ for backwards compatibility
@@ -31,26 +32,7 @@ Give it a quick watch.
 - Uses [Spring](https://github.com/MengTo/Spring) library:
   * Animate UI components
   * Download and cache images using ImageLoader class
-
-## Important Notes
-- 1.21.18 Update: Swift Radio App gets a major update with **Version 2** by [@fethica](https://github.com/fethica) -- [Release Note](https://github.com/analogcode/Swift-Radio-Pro/releases/tag/2.0.0). 
-- 10.6.17 Update: The AVPlayer branch migrated to Xcode 9/Swift 4 by [@joemcmahon](https://github.com/joemcmahon). 
-Branch here: [AVPlayer Branch](https://github.com/swiftcodex/Swift-Radio-Pro/tree/xcode8)
-- 10.1.17 Update: Master branch migrated to Xcode 9/Swift 4 by [@fethica](https://github.com/fethica).
-- 12.26.16 Update: The AVPlayer branch has been updated to Swift 3 by [@giacmarangoni](https://github.com/giacmarangoni). Branch here:  [Xcode8/AVPlayer Branch](https://github.com/swiftcodex/Swift-Radio-Pro/tree/xcode8)
-- 9.20.16 Update: Master branch migrated to Xcode 8/Swift 3 by [@fethica](https://github.com/fethica). Big thanks to him!
-- 7.26.16 Update: AVPlayer development branch added, thanks [@kusikusa](https://github.com/kusikusa). Plus, this branch includes the Spotify API for downloading artwork: [AVPlayer/Spotify Branch](https://github.com/swiftcodex/Swift-Radio-Pro/tree/avplayer)
-- 6.5.16 Update: Bluetooth streaming added, thanks [@fethica](https://github.com/fethica)
-- 3.27.16 Update: Google handoff added, thanks [@GraemeHarrison](https://github.com/GraemeHarrison)
-- 2.24.16 Update: Share icon added, thanks [@SuperChloe](https://github.com/SuperChloe).  
-- 12.30.15 Update: UISearchBar added, thanks [@fethica](https://github.com/fethica). Turn it on/off in the "SwiftRadio-Settings" file.  
-- 12.14.15 Update: LastFM has reopened their API signups. Get one at [last.fm/api](http://www.last.fm/api).
-- 10.21.15 Update: Added option to use iTunes API to download album art. (See FAQ below). iTunes art is 100px x 100px. i.e. It is smaller than LastFM artwork. So, if you use this API instead, you will want to adjust the UI of your app.
-- Volume slider works great in devices, not simulator. This is an Xcode simulator issue.  
-- Radio stations in demo are for demonstration purposes only. 
-- For a production product, you may want to swap out the MPMoviePlayerController for a more robust streaming library/SDK (with stream stitching, interruption handling, etc).
-- Uses Meng To's [Spring](https://github.com/MengTo/Spring) library for animation, making it easy experiment with different UI/UX animations
-- SwiftyJSON & Spring are included in the repo to get you up & running quickly. It's on the roadmap to utilize CocoaPods in the future. 
+  
 
 ## Credits
 *Created by [Matthew Fecher](http://matthewfecher.com), Twitter: [@goFecher](http://twitter.com/goFecher)*  
@@ -58,15 +40,13 @@ Branch here: [AVPlayer Branch](https://github.com/swiftcodex/Swift-Radio-Pro/tre
 *Thanks to Basel Farag, from [Denver Swift Heads](http://www.meetup.com/Denver-Swift-Heads/) for the code review.*  
 
 
-**Contributions by others listed in Github [here](https://github.com/swiftcodex/Swift-Radio-Pro/graphs/contributors).**  
-Thanks to everyone! We couldn't do it without you!
 
 ## Requirements
 
 - Xcode 9
 - Know a little bit of how to program in Swift with the iOS SDK
+-Updated for Xcode10
 
-Please note: I am unable to offer any free support or modifications. Thanks!
 
 ## Creating an App
 
